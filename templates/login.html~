@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <center>     
+    <img src="login.png" alt="picxxxx" height="42" width="42">
+    <br><br><br>
+    <h1>Create an Account</h1>
+    <form action = "/register" method="POST">
+      Pick a Username: <input type="text" name="user">
+       Pick a Password: <input type="password" name="pass">
+       <input type="submit" name="DONE">
+    </form>
+    <h1>If You Already Have an Account: Login</h1>
+    <form action = "/authenticate" method="POST">
+      Insert your Username: <input type="text" name="user">
+      Insert your Password: <input type="password" name="pass">
+       <input type="submit" name="DONE">
+    </form>
+  <h1>{{m}}</h1>
+  </center></body>
+</HTML>
