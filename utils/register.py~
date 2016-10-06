@@ -2,7 +2,7 @@ def createDict():
     exists = {}
     file = open("data/data.csv", 'r')
     update = file.read()
-    updatedFur = update.split("\n")
+    udpatedFur = update.split("\n")
     for k in updatedFur:
         line = k.split(",")
         try:
