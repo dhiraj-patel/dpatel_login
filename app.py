@@ -9,7 +9,8 @@ app.secret_key = "pineapples"
 @app.route("/")
 def main():
     if len(session.keys())>0 or len(session.keys())<0:
-        return redirect(url_for("lo"))
+        print "acer beyond limits"
+        return redirect(url_for("li"))
     return render_template("login.html")
 
 @app.route("/login")
